@@ -1,0 +1,115 @@
+$date
+	Fri Apr 17 12:32:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_blk $end
+$var wire 3 ! blk [2:0] $end
+$var wire 3 " nblk [2:0] $end
+$var reg 1 # clk $end
+$var reg 3 $ in [2:0] $end
+$scope module test $end
+$var wire 1 % clk $end
+$var wire 3 & in [2:0] $end
+$var reg 3 ' blk [2:0] $end
+$var reg 3 ( blk_reg1 [2:0] $end
+$var reg 3 ) blk_reg2 [2:0] $end
+$var reg 3 * blk_reg3 [2:0] $end
+$var reg 3 + nblk [2:0] $end
+$var reg 3 , nblk_reg1 [2:0] $end
+$var reg 3 - nblk_reg2 [2:0] $end
+$var reg 3 . nblk_reg3 [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+b101 &
+0%
+b101 $
+0#
+bx "
+bx !
+$end
+#5000
+b101 '
+b101 !
+b101 *
+b101 )
+b101 (
+b101 ,
+1#
+1%
+#10000
+0#
+0%
+#15000
+b101 +
+b101 "
+b101 .
+b101 -
+1#
+1%
+#20000
+0#
+0%
+#25000
+1#
+1%
+#30000
+0#
+0%
+#35000
+1#
+1%
+#40000
+0#
+0%
+#45000
+1#
+1%
+#50000
+0#
+0%
+#55000
+1#
+1%
+#60000
+0#
+0%
+#65000
+1#
+1%
+#70000
+0#
+0%
+#75000
+1#
+1%
+#80000
+0#
+0%
+#85000
+1#
+1%
+#90000
+0#
+0%
+#95000
+1#
+1%
+#100000
+0#
+0%
